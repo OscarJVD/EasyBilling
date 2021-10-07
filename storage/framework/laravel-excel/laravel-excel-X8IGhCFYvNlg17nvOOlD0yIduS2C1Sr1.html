@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="lR6UKQA0KavT4gU5IGVksQ71PfaaMf38J12RWoUO">
+
+    <title>Solupelis</title>
+
+    <!-- Scripts -->
+    <link href="http://localhost/ssoftlte/public/./css/app.css" rel="stylesheet">
+    <link href="http://localhost/ssoftlte/public/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+        <div id="app">
+            <!--Instancia de Vue-->
+
+            
+                <nav class="main-header navbar navbar-expand-md navbar-dark shadow-sm navColorText">
+
+                            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                                    <li class="nav-item">
+                        <a class="nav-link navColorText" data-widget="pushmenu" href="#" role="button">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                
+                <button class="navbar-toggler navColorText" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navColorText"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost/ssoftlte/public">
+                    Solupelis
+                </a>
+                <!-- Authentication Links -->
+                                    <!-- Validación -->
+                                            <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <a class="nav-link" href="http://localhost/ssoftlte/public/home">Inicio</a>
+    </li>
+    
+    <li class="nav-item">
+        <a class="nav-link" href="http://localhost/ssoftlte/public/admin/user">Usuarios</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="http://localhost/ssoftlte/public/admin/category">Categorías</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="http://localhost/ssoftlte/public/admin/role">Roles</a>
+    </li>
+    
+</ul>
+                    
+                    
+                    
+
+                            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button"><i
+                                class="fa fa-sort-down"></i></a>
+                    </li>
+                
+            </ul>
+            </nav>
+            <!-- /.navbar -->
+
+            <!-- Authentication Links -->
+                                                <!-- Main Sidebar Container -->
+                    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+        
+        <span class="brand-text font-weight-light">App</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+                
+            </div>
+            <div class="info">
+                <a href="#" class="d-block">Oscar Vargas</a>
+            </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                data-accordion="false">
+                <!-- Add icons to the links using the .nav-icon class
+   with font-awesome or any other icon font library -->
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
+                        <i class="nav-icon fa fa-tachometer-alt"></i>
+                        <p>
+                            Starter Pages
+                            <i class="right fa fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">
+                                <i class="fa fa-circle nav-icon"></i>
+                                <p>Active Page</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa fa-circle nav-icon"></i>
+                                <p>Inactive Page</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fa fa-th"></i>
+                        <p>
+                            Simple Link
+                            <span class="right badge badge-danger">New</span>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>
+
+
+
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+        
+        <li class="nav-item dropdown list-unstyled">
+            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                Claudelby Diaz <span class="caret"></span>
+            </a>
+
+            <div class="dropdown-menu dropdown-menu-right text-dark" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item text-dark" href="http://localhost/ssoftlte/public/logout" onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();">
+                    Cerrar Sesión
+                </a>
+
+                <form id="logout-form" action="http://localhost/ssoftlte/public/logout" method="POST" style="display: none;">
+                    <input type="hidden" name="_token" value="lR6UKQA0KavT4gU5IGVksQ71PfaaMf38J12RWoUO">                </form>
+            </div>
+        </li>
+    </div>
+</aside>
+<!-- /.control-sidebar -->
+
+
+
+
+                
+                
+                            
+            <main class="py-4">
+                <section class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row justify-content-center rounded border p-3 mb-1">
+                <article class="col-md-6 text-center">
+                    <h1 class="mb-0">
+                        Listado de Usuarios
+                    </h1>
+                </article>
+                <div class="col-md-6">
+                    <article class="col-md-12 col-md-offset-1">
+                        <form action="http://localhost/ssoftlte/public/admin/user/show" method="post" novalidate class="form-inline">
+                            <input type="hidden" name="_token" value="lR6UKQA0KavT4gU5IGVksQ71PfaaMf38J12RWoUO">                            <div class="row justify-content-center text-center">
+                                <div class="col-md-12">
+                                    <div class="row justify-content-center">
+                                        <input type="text" id="search" placeholder="Buscar" name="name" class="form-control mr-1 mb-1" required>
+                                        <div class="">
+                                            <button type="submit" class="btn btn-secondary">Buscar</button>
+                                            <a href="http://localhost/ssoftlte/public/admin/user" class="btn btn-primary mr-1">Todo</a>
+                                            <a href="http://localhost/ssoftlte/public/admin/users/export" class="btn btn-warning mr-1">Exportar</a>
+                                                                                        <a href="http://localhost/ssoftlte/public/admin/user/create" class="btn btn-success">Crear</a>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row justify-content-center rounded">
+                <article class="col-md-12 p-0 m-0">
+                    <table class="table text-center w-100 table-responsive-sm table-hover table-sm table-striped table-bordered mt-2">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Email</th>
+                                <th>Estado</th>
+                                <th>Rol</th>
+                                <th>Acción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                                        <tr>
+                                <td>Myrna O&#039;Reilly Sr.</td>
+                                <td>anderson.nyah@cummings.org</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/1/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/1">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Kayden Wiegand</td>
+                                <td>fidel59@predovic.com</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/2/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/2">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Beau Schmitt Sr.</td>
+                                <td>ojacobson@rippin.com</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/3/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/3">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Shyann Emmerich DVM</td>
+                                <td>frederick.will@runolfsdottir.com</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/4/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/4">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Gretchen Nikolaus</td>
+                                <td>mateo55@hotmail.com</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/5/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/5">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Wyatt Dach</td>
+                                <td>matilda68@gmail.com</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/6/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/6">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Ms. Zoey Rolfson</td>
+                                <td>wiegand.jacynthe@haley.net</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/7/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/7">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Albertha Breitenberg</td>
+                                <td>wilson06@sporer.info</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/8/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/8">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Elmer Quitzon</td>
+                                <td>pat.koepp@bahringer.biz</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/9/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/9">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Delphine Sawayn DVM</td>
+                                <td>newton44@gmail.com</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/10/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/10">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                        <tr>
+                                <td>Claudelby Diaz</td>
+                                <td>claudelbyd@gmail.com</td>
+                                <td>Activo</td>
+                                <td>Administrador</td>
+                                <td>
+                                                                        <a class="btn btn-outline-primary btn-sm my-2" href="http://localhost/ssoftlte/public/admin/user/11/edit">Editar</a>
+                                    <a class="btn btn-outline-danger btn-sm" href="http://localhost/ssoftlte/public/admin/user/destroy/11">Eliminar</a>
+                                                                    </td>
+                            </tr>
+                                                    </tbody>
+                    </table>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+            </main>
+
+            
+
+</div>
+
+<script src="http://localhost/ssoftlte/public/./js/app.js"></script>
+
+</body>
+
+</html>
